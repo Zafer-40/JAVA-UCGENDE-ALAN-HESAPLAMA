@@ -1,0 +1,13 @@
+        int a, b, c, u ;
+        double alan ;
+        
+        Scanner girdi = new Scanner(System.in);
+        System.out.print("a Kenarini Giriniz : ");
+        a = girdi.nextInt();
+        System.out.print("b Kenarini Giriniz : ");
+        b = girdi.nextInt();
+        System.out.print("c Kenarini Giriniz : ");
+        c = girdi.nextInt();
+        u = (a+b+c)/2 ;
+        alan = Math.sqrt(u*(u-a)*(u-b)*(u-c));
+        System.out.println("Alan : " + alan);
